@@ -30,8 +30,18 @@ elif  choice  ==  '1'  :
 elif  choice  ==  '3' :
     data=input("type your search :--->  ")
     webbrowser.open_new_tab('https://www.google.com/search?q='+data)
+elif choice == '2' :
+	data=input("type your search :---> ")
+	webbrowser.open_new_tab('https://www.youtube.com/='+data) 
+elif choice == '6' :
+	subprocess.getoutput('reboot')
+
+
+	
+
+
 else  :
-    print("hiiii")
+    print("wrong choice")
 
 
 
